@@ -33,14 +33,43 @@
 		</div>
 
 		<h1>Changelog</h1>
-		
+
+        <p class="large"><a class="large" href="https://github.com/cmackay732/Checkbook/releases/download/v1.5.5/Checkbook.Setup-v1.5.5.exe" target="_blank">Version 1.5.5</a> - 05/27/2017</p>
+
+		<h2><strong>Bug Fixes</strong></h2>
+
+		<ul>
+            <li class="small">Checkbook now checks whether or not you have transactions to calculate before opening Most Used Categories/Payees.
+            <li class="small">Checkbook now checks whether or not you have transactions to calculate before opening Budgets.
+            <li class="small">Loan Calculator no longer is visible in the taskbar when opened.
+            <li class="small">The 'Totals' column in Spending Overview now formats currency values appropriately after using Open What if Scenario.
+            <li class="small">Fixed issue where toolbar button configuration did not load or update after restoring a ledger.
+            <li class="small">Fixed issue in Budgets where the 'Percent Used' column would display 'Over Budget' instead of 0% when both 'Monthly Budget' and 'Current Month' were $0.00.
+		</ul>
+
+		<h2><strong>New Features</strong></h2>
+
+        <p>Spending Overview...</p>
+        <ul>
+            <li class="small">now has a feature called "Sum Selected" which allows you to sum selected monthly totals in the Category/Payee table. This feature also calculates an average based on the number of values you have selected.
+        </ul>
+
+        <p>Balance Account...</p>
+        <ul>
+            <li class="small">now sorts your transactions in ascending order. This makes it easier to clear older transactions while following your monthly statement because they are now at the top of your ledger.
+        </ul>
+
         <p class="large"><a class="large" href="https://github.com/cmackay732/Checkbook/releases/download/v1.5.4/Checkbook.Setup-v1.5.4.exe" target="_blank">Version 1.5.4</a> - 03/16/2017</p>
+
+		<h2><strong>Bug Fixes</strong></h2>
 
         <ul>
             <li class="small">Fixed bug in Spending Overview where not all What if Tools would be disabled when the selected year in Filter Options was not the most recent year that exists in your ledger.
         </ul>
 
-        <p><strong>Budgets...</strong></p>
+		<h2><strong>Features</strong></h2>
+
+        <p>Budgets...</p>
         <ul>
             <li class="small">now allows you to view your budget values from previous months and years.
             <li class="small">now has a right click context menu for adjusting budgets.
@@ -49,7 +78,7 @@
             <li class="small">now allows you to add all used categories to create budgets. A value of $0.00 is applied by default.
         </ul>
 
-        <p><strong>Spending Overview...</strong></p>
+        <p>Spending Overview...</p>
         <ul>
             <li class="small">now has a menu strip at the top of the window to clean up the interface and make more room for categories and payees.
             <li class="small">has a new feature located in <strong>Tools</strong> called <strong>Export Spending Overview Tables</strong>. This allows you to export the data visible in Spending Overview to a CSV (Comma delimited) (*.csv) file which can be opened with Microsoft Excel.
