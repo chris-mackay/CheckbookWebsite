@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link type="text/css" rel="stylesheet" href="../css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+    <title>Import Transactions</title>
+</head>
+
+
+<body class="backcolor">
+
+    <div class="content">
+
+        <div class="container">
+		
+			<a class="main_nav" href="../index.html">Checkbook</a>
+			<a class="main_nav" href="../about.html">About</a>
+			<a class="main_nav" href="../contact.html">Contact</a>	
+			<a class="main_nav" href="../contribute.html">Contribute</a>
+			<a class="main_nav" href="../install.html">Install</a>			
+			<a class="main_nav" href="checkbook_help.html">Checkbook Help</a>			
+
+		</div>
+
+		<div class="sub_nav">
+		
+			<a class="sub_nav" href="http://www.gnu.org/licenses/gpl-3.0.txt">License</a>
+			<a class="sub_nav" href="../checkbook_requirements.html">System Requirements</a>
+			<a class="sub_nav" href="../checkbook_screenshots.html">Screenshots</a>
+			<a class="sub_nav" href="../videos.html">Video Tutorials</a>
+			<a class="sub_nav" href="../changelog.html">Changelog</a>
+
+		</div>
+
+	<h1>Import Transactions</h1>
+	
+	<hr>
+
+    </div>
+
+    <img class="center_img" src="Images\import_transactions.png"/>
+    
+    <div class="content">
+
+	    <p><img class="inText" src="Icons\import_trans.png"/><strong>Import Transactions</strong> allows you to get a head start on tracking or catch up if you haven't entered in transactions for a while. Most banks let you download your transactions to various file types. 
+	    If you want to import transactions into Checkbook they <strong>must be saved as a CSV (Comma delimited) (*.csv) file type. They must also be formatted to match the image above and comply with the criteria below.</strong>	
+	    </p>
+	
+	    <p>(see <a class="inline" href="transactions.html">Transactions</a>) for descriptions of the fields below.</p>
+	
+	    <ul>
+	        <li>Column A: <strong>Type Code</strong> <strong>(Required)</strong> (Excel Data Type - General)
+	        </li>
+	        <li>Column B: <strong>Category</strong> (Optional) (Excel Data Type - General) - If not provided Checkbook will set it to "Uncategorized"
+	        </li>
+	        <li>Column C: <strong>Transaction Date</strong> <strong>(Required)</strong> (Excel Data Type - Short Date)
+	        </li>
+	        <li>Column D: <strong>Payment</strong> <strong>(Required - either Deposit of Payment)</strong> (Excel Data Type - General)
+	        </li>
+	        <li>Column E: <strong>Deposit</strong> <strong>(Required - either Deposit of Payment)</strong> (Excel Data Type - General)
+	        </li>
+	        <li>Column F: <strong>Payee</strong> (Optional) (Excel Data Type - General) - If not provided Checkbook will set it to "Unknown"
+	        </li>
+	        <li>Column G: <strong>Description</strong> (Optional) (Excel Data Type - General)	
+	        </li>
+	        <li>Column H: <strong>Cleared</strong> (Optional) (Excel Data Type - General) - If not provided Checkbook will set it to "True"
+	        </li>
+	        <li><strong>Column I (Required): Each row in this column where you have a transaction must contain the word "End". (Excel Data Type - General)</strong
+	        </li>
+	    </ul>
+	
+	    <p>If your spreadsheet contains invalid data Checkbook will let you know before attempting to import them. You will receive the message below. Checkbook lets you know which rows contains errors. All fields are read by Checkbook as plain text 
+	    except for the transaction date, payment, and deposit fields. If you receive this message make sure these fields don't contain any letters or characters that don't represent a date or money value.
+	    </p>
+
+       	<img class="center_img" src="Images\invalid_data.png"/>
+
+        <div class="clearfooter"></div>
+		<div id="footer">Copyright &#169 2017 Chris Mackay</div>
+
+    </div>
+	
+</body>
+
+</html>

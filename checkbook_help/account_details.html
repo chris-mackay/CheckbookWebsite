@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<link type="text/css" rel="stylesheet" href="../css/style.css"/>
+<link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+
+    <title>Account Details</title>
+
+</head>
+
+
+<body class="backcolor">
+
+    <div id="content">
+
+         <div class="container">
+		
+			<a class="main_nav" href="../index.html">Checkbook</a>
+			<a class="main_nav" href="../about.html">About</a>
+			<a class="main_nav" href="../contact.html">Contact</a>	
+			<a class="main_nav" href="../contribute.html">Contribute</a>
+			<a class="main_nav" href="../install.html">Install</a>			
+			<a class="main_nav" href="checkbook_help.html">Checkbook Help</a>			
+
+		</div>
+
+		<div class="sub_nav">
+		
+			<a class="sub_nav" href="http://www.gnu.org/licenses/gpl-3.0.txt">License</a>
+			<a class="sub_nav" href="../checkbook_requirements.html">System Requirements</a>
+			<a class="sub_nav" href="../checkbook_screenshots.html">Screenshots</a>
+			<a class="sub_nav" href="../videos.html">Video Tutorials</a>
+			<a class="sub_nav" href="../changelog.html">Changelog</a>
+
+		</div>
+
+	<h1>Account Details</h1>
+	
+	<hr>
+	
+	<div>
+		<img class="center_img" src="Images\account_details.png"/>
+	</div>
+	
+	<p>Your account details display the account information
+	 for the currently opened ledger. This information is updated with every change you make to your ledger. 
+	 Overall Balance and Ledger Status will be highlighted with either green (positive) or red (negative). 
+	 Below you will find each value and its description.
+	</p>
+	
+	<ul>
+		<li><strong>Starting Balance:</strong> The amount used to begin calculating your overall balance. When creating a new 
+		ledger your starting balance will be your account balance from your most recent bank statement or from the bank statement of the month in which you wish to begin entering transactions.
+		</li>
+		<li><strong>Total Payments:</strong> Total amount of payment transactions in your ledger. (see <a class="inline" href="transactions.html">Transactions</a>)
+		</li>
+		<li><strong>Total Deposits:</strong> Total amount of deposit transactions in your ledger. (see <a class="inline" href="transactions.html">Transactions</a>)
+		</li>	
+		<li><img class="inText" src="Icons\cleared.png"/><strong>Cleared Balance:</strong> Total amount of only the transactons that have been cleared. Once a transaction goes through your bank the transaction can be cleared. Your monthly bank statements outline
+		all the transactions that went through during that month. Balancing your checking account by clearing transactions with your bank statements will let you know how much money you actually have in your account versus
+		the amount your bank knows about. For example you may have pending transactions, so your Overall Balance will be different than your Cleared Balance. (see <a class="inline" href="balance_account.html">Balance Account</a>)
+		</li>
+		<li><strong>Overall Balance:</strong> The result of your starting balance minus total payments, plus total deposits. The actual amount you have available in your account.
+		</li>
+		<li><strong>Ledger Status:</strong> The result of your total deposits minus total payments. This amount lets you know if your ledger is positive or negative.
+		</li>
+	</ul>
+
+        <div class="clearfooter"></div>
+		<div id="footer">Copyright &#169 2017 Chris Mackay</div>
+
+    </div>
+
+</body>
+
+</html>
