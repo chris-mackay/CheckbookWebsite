@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\checkbook_help"
+    "\\checkbook_help",
+    "\\css"
   ],
-  "SelectedNode": "\\install.html",
+  "SelectedNode": "\\css\\style.css",
   "PreviewInSolutionExplorer": false
 }
