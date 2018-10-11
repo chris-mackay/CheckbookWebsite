@@ -42,9 +42,12 @@
 	
     <div class="content">
 
-	    <p><img class="inText" src="Icons/spending_overview.png"/><strong>Spending Overview</strong> gives you the big picture and lets you see where every penny of your money is going and coming from each month of the year. The items in the Edit menu allow you to change your totals to create hypothetical scenarios to help with finanical planning. These features will only be enabled after you create a new Scenario with <img class="inText" src="Icons/what_if.png"/><a class="inline" href="create_new_scenario.html">Create New Scenario</a>.
+	    <p><img class="inText" src="Icons/spending_overview.png"/><strong>Spending Overview</strong> gives you the big picture and lets you see where every penny of your money is going and coming from.
 	    </p>
 	
+		<p>The items in the Edit menu allow you to change your totals to create hypothetical scenarios to help with finanical planning. Create a new scenario with <img class="inText" src="Icons/what_if.png"/><a class="inline" href="create_new_scenario.html">Create New Scenario</a> to enable these features.
+		</p>
+
         <hr class="clear">
 
         <div class="center">
@@ -52,7 +55,7 @@
             <img class="text_wrap_left" src="Images/spending_overview_monthly_income.png"/>
         </div>
 
-        <p>Displays your monthly income for each month of the year. The values in the Payments and Deposits columns can be edited while working in a Scenario. The Payments column can be edited if Deposits is selected in Filter Options (Deposits will be modeled in the Category/Payee table). The Deposits column can be edited if Payments is selected in Filter Options (Payments will be modeled in the Category/Payee table). 
+        <p>Displays your monthly income for each month of the year. The values in the Payments and Deposits columns can be edited while working in a scenario. The Payments column can be edited if Deposits is selected in Filter Options (Deposits will be modeled in the Category/Payee table). The Deposits column can be edited if Payments is selected in Filter Options (Payments will be modeled in the Category/Payee table). 
         </p>
 
         <hr class="clear">
@@ -62,7 +65,7 @@
             <img class="text_wrap_left" src="Images/spending_overview_filter_options.png"/>
         </div>
 
-        <p>Perform calculations on your ledger data using Filter Options. You can calculate based on Year, Categories or Payees, and Payments or Deposits. These options will be disabled after creating a Scenario. If you want to enable them reset your totals back to there actual values from your ledger by selecting<strong><img class="inText" src="Icons/reset_all_expenses.png"/>Reset Expenses/Incomes Back To Year</strong>.
+        <p>Perform calculations on your ledger data using Filter Options. You can calculate based on Year, Categories or Payees, and Payments or Deposits. These options will be disabled after creating a scenario. If you want to enable them reset your totals back to there actual values from your ledger by selecting either <strong><img class="inText" src="Icons/close_scenario.png"/>Close Scenario</strong> or <strong><img class="inText" src="Icons/reset_all_expenses.png"/>Reset Spending Overview</strong>.
         </p>
 
         <hr class="clear" width="25%">
@@ -88,27 +91,15 @@
         <hr class="clear">
 
         <div class="center">
-	        <h1>Menu Items</h1>
-            <hr class="clear" width="25%">
-            <h2>File</h2>
+	        <h1>Features</h1>
         </div>
-
-        <ul>
-            <li><img class="inText" src="Icons/whatif_save.png"/><strong>Save Scenario</strong>: Saves the current year data for later use. This saves the values from the Category/Payee table, Monthly Income table, and Filter Options regarding Categories or Payees and Payments or Deposits. Checkbook saves your data in a folder titled <strong>day-month-year_'Filename'_Scenario</strong>. The folder that Checkbook creates should not be renamed. If you want to organize your Scenarios you may place the folder within another folder.
-            </li>
-            <li><img class="inText" src="Icons/whatif_open.png"/><strong>Open Scenario</strong>: Select the folder containing your Scenario to load your data and calculate your account details.
-            </li>
-        </ul>	
-
-        <div class="center">
-            <hr class="clear" width="25%">
-            <h2>Edit</h2>
-        </div>
-        
+      
         <p>The items in Edit allow you to change your current spending or income totals and pretend they are something else. You can create new monthly totals, edit existing totals, and remove entire entries. You can also copy selected monthly totals to the next month, selected months, or the rest of the year. Your account details will update based on this new information. <strong>Making changes in Spending Overview will not alter your actual ledger data. These features turn Spending Overview into a sandbox for you to try different yearly scenarios</strong>.
         </p>
 
         <ul>
+            <li><img class="inText" src="Icons/what_if.png"/><a class="inline" href="my_scenarios.html">My Scenarios</a>: Manage all your scenarios in one place
+            </li>
             <li><img class="inText" src="Icons/what_if.png"/><a class="inline" href="create_new_scenario.html">Create New Scenario</a>: Choose between four Modeling Options to create a hypothetical scenario.
             </li>
             <li><img class="inText" src="Icons/create_monthly_expense.png"/><strong>Create Monthly Expense/Income</strong>: Create a new monthly total to add to your scenario. Select a Category or Payee depending on which you have selected in Filter Options and set an amount. This amount will be applied to each month of the year.
@@ -125,32 +116,16 @@
             </li>
             <li><img class="inText" src="Icons/copy_to_rest_of_year.png"/><strong>Copy to Rest of Year</strong>: Allows you to copy the selected totals in the table to the rest of the year. You can only copy totals from one month at a time.
             </li>
-        </ul>	
-
-        <div class="center">
-            <hr class="clear" width="25%">
-            <h2>View</h2>
-        </div>
-
-        <ul>
             <li><img class="inText" src="Icons/whatif_charts.png"/><a class="inline" href="charts.html"><strong>Spending Overview Charts</strong></a>: See your monthly totals from the Category/Payee table displayed in a color coded chart.
             </li>
-            <li><img class="inText" src="Icons/reset_all_expenses.png"/><strong>Reset Expenses/Incomes Back To Year</strong>: Allows you to reset the Category/Payee and Monthly Income table to the actual values from your ledger when you are finished creating scenarios.
+            <li><img class="inText" src="Icons/reset_all_expenses.png"/><strong>Reset Spending Overview</strong>: Allows you to reset the Category/Payee and Monthly Income table to the actual values from your ledger when you are finished creating scenarios.
             </li>
-        </ul>	
-
-        <div class="center">
-            <hr class="clear" width="25%">
-            <h2>Tools</h2>
-        </div>
-
-        <ul>
             <li><img class="inText" src="Icons/export_category_payee_table.png"/><strong>Export Spending Overview Tables</strong>: Allows you to export the Category/Payee and Monthly Income table to a CSV (Comma delimited) (*.csv) file which can be opened with Microsoft Excel. Continue performing calculations to your heart's content.
             </li>
         </ul>	
 
         <div class="clearfooter"></div>
-	    <div id="footer">Copyright &#169 2017 Chris Mackay</div>
+	    <div id="footer">Copyright &#169 2018 Christopher Mackay</div>
 
     </div>
 
