@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\all_installer_versions",
+    "\\all_installer_versions\\latest_version",
     "\\checkbook_help"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\install.html",
   "PreviewInSolutionExplorer": false
 }
